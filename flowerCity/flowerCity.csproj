@@ -66,9 +66,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="components\1grid\1grids.css" />
+    <Content Include="components\bulma\bulma.css" />
+    <Content Include="home.aspx" />
+    <Content Include="image\bg.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="login.css" />
     <Content Include="main.css" />
     <Content Include="packages.config" />
     <Content Include="main-master-page.Master" />
+    <Content Include="components\bulma\bulma.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -87,6 +93,20 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="main-master-page.Master.cs">
       <DependentUpon>main-master-page.Master</DependentUpon>

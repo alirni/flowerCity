@@ -2,18 +2,34 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="fa" dir="rtl">
 <head runat="server">
-  <title></title>
+  <title>Flower City</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="components/bulma/bulma.css" rel="stylesheet" />
+  <link href="main.css" rel="stylesheet" />
   <asp:ContentPlaceHolder ID="head" runat="server">
+    
   </asp:ContentPlaceHolder>
 </head>
 <body>
   <form id="form1" runat="server">
-    <div>
-      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
-      </asp:ContentPlaceHolder>
+    <div class="container is-fluid">
+      <%--<div class="menu is-boxed is-fullwidth">
+        <ul>
+          <li class="is-active"><a>Overview</a></li>
+          <li><a class="has-text-white">Modifiers</a></li>
+          <li><a class="has-text-white">Grid</a></li>
+          <li><a class="has-text-white">Elements</a></li>
+          <li><a class="has-text-white">Components</a></li>
+          <li><a class="has-text-white">Layout</a></li>
+        </ul>
+      </div>--%>
+      <div class="main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
     </div>
   </form>
 </body>
