@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="components\1grid\1grids.css" />
     <Content Include="components\bulma\bulma.css" />
+    <Content Include="components\font\droid-naskh.css" />
     <Content Include="home.aspx" />
     <Content Include="image\bg.jpg" />
     <Content Include="image\user-avatar.jpg" />
@@ -76,6 +77,14 @@
     <Content Include="packages.config" />
     <Content Include="main-master-page.Master" />
     <Content Include="components\bulma\bulma.css.map" />
+    <Content Include="components\font\DroidNaskh-Bold.eot" />
+    <Content Include="components\font\DroidNaskh-Bold.ttf" />
+    <Content Include="components\font\DroidNaskh-Bold.woff" />
+    <Content Include="components\font\DroidNaskh-Bold.woff2" />
+    <Content Include="components\font\DroidNaskh-Regular.eot" />
+    <Content Include="components\font\DroidNaskh-Regular.ttf" />
+    <Content Include="components\font\DroidNaskh-Regular.woff" />
+    <Content Include="components\font\DroidNaskh-Regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -84,15 +93,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\flowerCityDb.mdf" />
-    <Content Include="App_Data\flowerCityDb_log.ldf">
-      <DependentUpon>flowerCityDb.mdf</DependentUpon>
-    </Content>
     <Content Include="Global.asax" />
     <Content Include="profile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="db.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -127,6 +133,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
