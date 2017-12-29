@@ -136,37 +136,42 @@ menu.top li li:hover {
   min-height: 40px;
 }
 
-/*.profilecontainer {
+.profilecontainer {
   width: 500px;
-  background-color: rgba(255, 255, 255, 0.89);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
-  margin: 10px auto;
+  margin: 30px auto;
+  border-radius:5px;
 }
 
 .avatar {
-  background-image: url("image/user-avatar.jpg");
+  background-image: url("../../image/user-avatar.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100px;
   height:100px;
-  margin:100px auto 0;
+  margin:10px auto;
   border: 1px solid black;
 }
 
 .nameuser{
   display:block;
-  width: 120px;
+  width: 150px;
   height: 20px;
-  margin:10px auto 4px;
+  margin:10px auto 10px;
   text-align:center;
   font-size:15px;
   font-weight:bold;
 }
 
+.spacename{
+  margin-left:10px;
+}
+
 .logout{
   margin:10px auto;
-  width:60px;
+  width:30px;
 }
 
 .border{
@@ -181,10 +186,19 @@ menu.top li li:hover {
   width:200px;
 }
 
+.address span{
+  font-size:10px;
+  color:#3b3737;
+}
+
+.address .info {
+  font-size: 13px;
+  color: #010101;
+}
+
 .linkfactor{
   margin: 10px;
   padding: 10px;
-}*/
-
-
-
+  font-size:13px;
+  color:#ff006e;
+}
