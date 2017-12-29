@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="components/bulma/bulma.css" rel="stylesheet" />
+  <link href="components/font/droid-naskh.css" rel="stylesheet" />
   <link href="main.css" rel="stylesheet" />
   <asp:ContentPlaceHolder ID="head" runat="server">
     
