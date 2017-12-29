@@ -18,12 +18,18 @@
     </tr>
     <tr>
       <td>
-        <asp:TextBox CssClass="input" ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox CssClass="input" ID="passwrod" runat="server"></asp:TextBox>
       </td>
     </tr>
     <tr>
       <td>
-        <asp:Button CssClass="button" ID="Button1" runat="server" Text="Button" />
+        <asp:Button CssClass="button" ID="loginBtn" runat="server" Text="ورود" OnClick="loginBtn_Click" />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <asp:Label ID="error" runat="server" Text=""></asp:Label>
       </td>
     </tr>
   </table>

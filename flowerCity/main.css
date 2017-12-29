@@ -3,13 +3,14 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Droid Arabic Naskh', 'Noto Naskh Arabic', 'Roboto', 'Noto', sans-serif;
 }
 
 .container {
   /*outline: 1px solid red;*/
   padding: 10px;
-  margin: 10px auto;
-  min-height: 750px;
+  /*margin: 10px auto;*/
+  font-family: 'Droid Arabic Naskh', 'Noto Naskh Arabic', 'Roboto', 'Noto', sans-serif;
 }
 
 /*.container > * {
