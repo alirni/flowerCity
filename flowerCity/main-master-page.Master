@@ -25,7 +25,9 @@
     </div>
     <menu class="menu top box float-start w12">
       <li><a href="#">خانه</a></li>
-      <li><a href="#">پروفایل</a></li>
+      <li>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/profile.aspx">پروفایل</asp:HyperLink>
+      </li>
       <li>
         <a href="#">محصولات</a>
         <menu>
