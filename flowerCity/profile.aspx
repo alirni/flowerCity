@@ -6,7 +6,7 @@
     <div class="avatar"></div>
     <div class="nameuser">  
       <asp:Label class="spacename" id="Label1" runat="server" Text="مهدی غلامی"></asp:Label>
-      <asp:Button ID="Button1" runat="server" Text="خروج" />
+      <asp:Button ID="Button1" runat="server" Text="خروج" OnClick="Button1_Click" />
     </div>
     
     <div class="border"></div>

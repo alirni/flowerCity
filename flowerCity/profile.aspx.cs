@@ -13,5 +13,18 @@ namespace flowerCity
         {
 
         }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+      if(Request.Cookies["loginAdmin"] != null)
+      {
+        Response.Cookies["loginAdmin"].Expires = DateTime.Now.AddDays(-1);
+      }
+      if (Request.Cookies["loginUser"] != null)
+      {
+        Response.Cookies["loginUser"].Expires = DateTime.Now.AddDays(-1);
+      }
+      Response.Redirect("login.aspx");
     }
+  }
 }
