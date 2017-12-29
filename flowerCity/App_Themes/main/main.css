@@ -33,6 +33,36 @@
   outline: 1px dotted yellow;
 }*/
 
+.login-container {
+  background-color: #ffffffe6;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.login {
+  margin: 20px auto;
+}
+
+.login > div {
+  margin: 10px 0;
+}
+
+.login input {
+  width: 250px;
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Droid Arabic Naskh', 'Noto Naskh Arabic', 'Roboto', 'Noto', sans-serif;
+}
+
+input.button {
+  width: 100px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
 .heder > * {
   min-height: 140px;
 }

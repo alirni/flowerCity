@@ -73,7 +73,6 @@
     <Content Include="image\bg.jpg" />
     <Content Include="image\user-avatar.jpg" />
     <Content Include="login.aspx" />
-    <Content Include="login.css" />
     <Content Include="packages.config" />
     <Content Include="main-master-page.Master" />
     <Content Include="components\bulma\bulma.css.map" />
