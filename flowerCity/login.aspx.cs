@@ -14,7 +14,10 @@ namespace flowerCity
   {
     protected void Page_Load(object sender, EventArgs e)
     {
+      if (Request.Cookies["loginAdmin"] != null)
+      {
 
+      }
     }
 
     protected void loginBtn_Click(object sender, EventArgs e)

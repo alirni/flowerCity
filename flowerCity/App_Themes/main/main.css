@@ -1,0 +1,160 @@
+﻿body {
+  background-image: url('../../image/bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Droid Arabic Naskh', 'Noto Naskh Arabic', 'Roboto', 'Noto', sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+.container > * {
+  outline: 4px dotted blue;
+}
+
+.container > * > * {
+  outline: 3px solid green;
+}
+
+.container > * > * > * {
+  outline: 2px dotted red;
+}
+
+.container > * > * > * > * {
+  outline: 1px dotted yellow;
+}
+
+.heder > * {
+  min-height: 140px;
+}
+
+menu.top {
+  list-style-type: none;
+  background-color: #2196F3;
+}
+
+.badboy {
+  width: 0px;
+  height: 0px;
+  clear: both;
+}
+
+menu.top li {
+  float: right;
+  position: relative;
+  border-right: 1px solid #FAFAFA
+}
+
+menu.top a {
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FAFAFA;
+}
+
+menu.top li menu {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  box-shadow: 0px 3px 2px #aaaaaa;
+  background-color: #2196F3;
+}
+
+menu.top li li {
+  min-width: 100%;
+  white-space: nowrap;
+  border: none;
+}
+
+menu.top li:hover {
+  box-shadow: 0px 2px 2px #aaaaaa;
+  background-color: #1E88E5;
+}
+
+  menu.top li:hover menu {
+    display: block;
+  }
+
+menu.top li li:hover {
+  box-shadow: none;
+  background-color: #1976D2;
+}
+
+.main {
+  min-height: 530px;
+}
+
+.footer {
+  min-height: 200px;
+}
+
+.social {
+  min-height: 60px;
+}
+
+.about {
+  min-height: 40px;
+}
+
+/*.profilecontainer {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.89);
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.avatar {
+  background-image: url("image/user-avatar.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height:100px;
+  margin:100px auto 0;
+  border: 1px solid black;
+}
+
+.nameuser{
+  display:block;
+  width: 120px;
+  height: 20px;
+  margin:10px auto 4px;
+  text-align:center;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.logout{
+  margin:10px auto;
+  width:60px;
+}
+
+.border{
+  border:1px solid #e1dfdf;
+  width:500px;
+  margin:0px auto;
+}
+
+.infouser{
+  text-align:center;
+  margin:10px auto;
+  width:200px;
+}
+
+.linkfactor{
+  margin: 10px;
+  padding: 10px;
+}*/
+
+
+

@@ -7,31 +7,50 @@
   <title>Flower City</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="components/bulma/bulma.css" rel="stylesheet" />
+  <%--<link href="components/bulma/bulma.css" rel="stylesheet" />--%>
+  <link href="components/1grid/1grid.css" rel="stylesheet" />
   <link href="components/font/droid-naskh.css" rel="stylesheet" />
-  <link href="main.css" rel="stylesheet" />
+  <link href="App_Themes/main/main.css" rel="stylesheet" />
   <asp:ContentPlaceHolder ID="head" runat="server">
     
   </asp:ContentPlaceHolder>
 </head>
 <body>
   <form id="form1" runat="server">
-    <div class="container is-fluid">
-      <%--<div class="menu is-boxed is-fullwidth">
-        <ul>
-          <li class="is-active"><a>Overview</a></li>
-          <li><a class="has-text-white">Modifiers</a></li>
-          <li><a class="has-text-white">Grid</a></li>
-          <li><a class="has-text-white">Elements</a></li>
-          <li><a class="has-text-white">Components</a></li>
-          <li><a class="has-text-white">Layout</a></li>
-        </ul>
-      </div>--%>
-      <div class="main">
+    <div class="container">
+    <div class="heder box">
+      <div class="box float-start w12">
+        heder
+      </div>
+    </div>
+    <menu class="menu top box float-start w12">
+      <li><a href="#">خانه</a></li>
+      <li><a href="#">پروفایل</a></li>
+      <li>
+        <a href="#">محصولات</a>
+        <menu>
+          <li><a href="#">logo</a></li>
+          <li><a href="#">css</a></li>
+          <li><a href="#">html</a></li>
+          <li><a href="#">abc def ghi</a></li>
+          <div class="badboy"></div>
+        </menu>
+      </li>
+      <li><a href="#">سبد خرید</a></li>
+      <li><a href="#">یادآوری</a></li>
+      <div class="badboy"></div>
+    </menu>
+    <div class="middel box">
+      <div class="main box float-start w12">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
       </div>
     </div>
+    <div class="footer box">
+      <div class="social box">social</div>
+      <div class="about box">about</div>
+    </div>
+  </div>
   </form>
 </body>
 </html>

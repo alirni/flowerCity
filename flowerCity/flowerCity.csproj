@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\main\main.css" />
     <Content Include="components\1grid\1grids.css" />
     <Content Include="components\bulma\bulma.css" />
     <Content Include="components\font\droid-naskh.css" />
@@ -73,7 +74,6 @@
     <Content Include="image\user-avatar.jpg" />
     <Content Include="login.aspx" />
     <Content Include="login.css" />
-    <Content Include="main.css" />
     <Content Include="packages.config" />
     <Content Include="main-master-page.Master" />
     <Content Include="components\bulma\bulma.css.map" />
