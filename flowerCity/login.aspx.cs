@@ -16,7 +16,12 @@ namespace flowerCity
     {
       if (Request.Cookies["loginAdmin"] != null)
       {
+        Response.Redirect("homeAdmin.aspx");
+      }
 
+      if (Request.Cookies["loginUser"] != null)
+      {
+        Response.Redirect("home.aspx");
       }
     }
 
