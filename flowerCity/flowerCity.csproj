@@ -70,6 +70,7 @@
     <Content Include="components\bulma\bulma.css" />
     <Content Include="components\font\droid-naskh.css" />
     <Content Include="home.aspx" />
+    <Content Include="homeAdmin.aspx" />
     <Content Include="image\bg.jpg" />
     <Content Include="image\user-avatar.jpg" />
     <Content Include="login.aspx" />
@@ -107,6 +108,13 @@
     </Compile>
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeAdmin.aspx.cs">
+      <DependentUpon>homeAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeAdmin.aspx.designer.cs">
+      <DependentUpon>homeAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
