@@ -72,6 +72,7 @@
     <Content Include="home.aspx" />
     <Content Include="homeAdmin.aspx" />
     <Content Include="image\bg.jpg" />
+    <Content Include="image\header.jpg" />
     <Content Include="image\user-avatar.jpg" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />

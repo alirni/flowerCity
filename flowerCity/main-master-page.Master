@@ -18,9 +18,9 @@
 <body>
   <form id="form1" runat="server">
     <div class="container">
-    <div class="heder box">
+    <div class="header box">
       <div class="box float-start w12">
-        heder
+
       </div>
     </div>
     <menu class="menu top box float-start w12">

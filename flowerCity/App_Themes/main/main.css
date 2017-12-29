@@ -14,7 +14,8 @@
 .container {
   background-repeat: no-repeat;
   margin: 0 auto;
-  max-width: 950px;
+  max-width: 80%;
+  padding-top: 10px;
 }
 
 /*.container > * {
@@ -32,6 +33,16 @@
 .container > * > * > * > * {
   outline: 1px dotted yellow;
 }*/
+
+.header > div {
+  background-image: url(../../image/header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+  border-radius: 10px 10px 0 0;
+  /*margin: 10px 0;*/
+}
 
 .login-container {
   background-color: #ffffffe6;
@@ -63,7 +74,7 @@ input.button {
   font-size: 14px;
 }
 
-.heder > * {
+.header > * {
   min-height: 140px;
 }
 
@@ -111,9 +122,9 @@ menu.top li:hover {
   background-color: #1E88E5;
 }
 
-  menu.top li:hover menu {
-    display: block;
-  }
+menu.top li:hover menu {
+  display: block;
+}
 
 menu.top li li:hover {
   box-shadow: none;
@@ -137,7 +148,7 @@ menu.top li li:hover {
 }
 
 .profilecontainer {
-  width: 500px;
+  /*width: 500px;*/
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
   margin: 30px auto;
