@@ -65,7 +65,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\main\main.css" />
+    <Content Include="components\1grid\1grids.css" />
+    <Content Include="components\bulma\bulma.css" />
+    <Content Include="components\font\droid-naskh.css" />
+    <Content Include="home.aspx" />
+    <Content Include="homeAdmin.aspx" />
+    <Content Include="image\bg.jpg" />
+    <Content Include="image\header.jpg" />
+    <Content Include="image\user-avatar.jpg" />
+    <Content Include="login.aspx" />
     <Content Include="packages.config" />
+    <Content Include="main-master-page.Master" />
+    <Content Include="components\bulma\bulma.css.map" />
+    <Content Include="components\font\DroidNaskh-Bold.eot" />
+    <Content Include="components\font\DroidNaskh-Bold.ttf" />
+    <Content Include="components\font\DroidNaskh-Bold.woff" />
+    <Content Include="components\font\DroidNaskh-Bold.woff2" />
+    <Content Include="components\font\DroidNaskh-Regular.eot" />
+    <Content Include="components\font\DroidNaskh-Regular.ttf" />
+    <Content Include="components\font\DroidNaskh-Regular.woff" />
+    <Content Include="components\font\DroidNaskh-Regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,20 +94,54 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\flowerCityDb.mdf" />
-    <Content Include="App_Data\flowerCityDb_log.ldf">
-      <DependentUpon>flowerCityDb.mdf</DependentUpon>
-    </Content>
     <Content Include="Global.asax" />
+    <Content Include="profile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="db.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeAdmin.aspx.cs">
+      <DependentUpon>homeAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeAdmin.aspx.designer.cs">
+      <DependentUpon>homeAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="main-master-page.Master.cs">
+      <DependentUpon>main-master-page.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main-master-page.Master.designer.cs">
+      <DependentUpon>main-master-page.Master</DependentUpon>
+    </Compile>
+    <Compile Include="profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

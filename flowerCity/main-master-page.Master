@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main-master-page.master.cs" Inherits="flowerCity.main_master_page" %>
+
+<!DOCTYPE html>
+
+<html lang="fa" dir="rtl">
+<head runat="server">
+  <title>Flower City</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <%--<link href="components/bulma/bulma.css" rel="stylesheet" />--%>
+  <link href="components/1grid/1grid.css" rel="stylesheet" />
+  <link href="components/font/droid-naskh.css" rel="stylesheet" />
+  <link href="App_Themes/main/main.css" rel="stylesheet" />
+  <asp:ContentPlaceHolder ID="head" runat="server">
+    
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+    <div class="container">
+    <div class="header box">
+      <div class="box float-start w12">
+
+      </div>
+    </div>
+    <menu class="menu top box float-start w12">
+      <li><a href="#">خانه</a></li>
+      <li>
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/profile.aspx">پروفایل</asp:HyperLink>
+      </li>
+      <li>
+        <a href="#">محصولات</a>
+        <menu>
+          <li><a href="#">logo</a></li>
+          <li><a href="#">css</a></li>
+          <li><a href="#">html</a></li>
+          <li><a href="#">abc def ghi</a></li>
+          <div class="badboy"></div>
+        </menu>
+      </li>
+      <li><a href="#">سبد خرید</a></li>
+      <li><a href="#">یادآوری</a></li>
+      <div class="badboy"></div>
+    </menu>
+    <div class="middel box">
+      <div class="main box float-start w12">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+    </div>
+    <div class="footer box">
+      <div class="social box">social</div>
+      <div class="about box">about</div>
+    </div>
+  </div>
+  </form>
+</body>
+</html>
