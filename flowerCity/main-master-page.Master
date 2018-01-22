@@ -24,7 +24,9 @@
       </div>
     </div>
     <menu class="menu top box float-start w12">
-      <li><a href="#">خانه</a></li>
+      <li>
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/home.aspx">خانه</asp:HyperLink>
+      </li>
       <li>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/profile.aspx">پروفایل</asp:HyperLink>
       </li>
