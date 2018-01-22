@@ -43,7 +43,7 @@ namespace flowerCity
           userRow.Read();
           if(Convert.ToBoolean(userRow["access"].ToString())==true) {
             HttpCookie loginAdmin = new HttpCookie("loginAdmin");
-            loginAdmin.Value = user;
+            loginAdmin.Value = user + pass;
             loginAdmin.Expires = DateTime.Now.AddDays(2);
             Response.Cookies.Add(loginAdmin);
             Response.Redirect("homeAdmin.aspx");

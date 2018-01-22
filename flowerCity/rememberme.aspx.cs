@@ -13,9 +13,21 @@ namespace flowerCity
   {
     protected void Page_Load(object sender, EventArgs e)
     {
-      /*DB rememberDb = new DB();
-      string queryStr= "SELECT * FROM rememberdata WHERE iduser=  "*/
+      DB rememberDb = new DB();
+      string queryStr = "SELECT * FROM rememberdate WHERE iduser= 1";
+      rememberDb.loadDataGrid(queryStr, GridView1);
+    }
 
+    protected void add_Click(object sender, EventArgs e)
+    {
+      string myYear = year.Text;
+      string myMonth = month.Text;
+      string myDay = day.Text;
+      string myMsg = message.Text;
+
+      DB rememberDb = new DB();
+      string queryStr = string.Format("INSERT INTO rememberdate (year, month, day, textmessage, iduser,) VALUES ( {0}, {1}, {2}, {3}, 1 )", myYear, myMonth, myDay, myMsg);
+      rememberDb.execQuery(queryStr);
     }
   }
 }
