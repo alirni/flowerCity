@@ -5,7 +5,7 @@
   <div class="profilecontainer">
     <div class="avatar"></div>
     <div class="nameuser">  
-      <asp:Label class="spacename" id="Label1" runat="server" Text="مهدی غلامی"></asp:Label>
+      <asp:Label class="spacename" id="Labelname" runat="server" Text=""></asp:Label>
       <asp:Button ID="Button1" runat="server" Text="خروج" OnClick="Button1_Click" />
     </div>
     
@@ -13,13 +13,13 @@
     <div class="infouser">
       <div class="address">
         <span> آدرس:</span> 
-        <asp:Label CssClass="info" runat="server" Text="آدرس را وارد کنید"></asp:Label>
+        <asp:Label ID="labeladdres" CssClass="info" runat="server" Text=""></asp:Label>
       </div>
     </div>
 
     <div class="linkfactor">
         <asp:HyperLink ID="HyperLink1" runat="server" href="#">فاکتور</asp:HyperLink><br/>
-        <asp:HyperLink ID="HyperLink2" runat="server" href="#">یادآوری</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/rememberme.aspx">یادآوری</asp:HyperLink>
     </div>
   </div>      
 </asp:Content>

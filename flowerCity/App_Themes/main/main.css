@@ -168,6 +168,7 @@ menu.top li li:hover {
   min-height: 40px;
 }
 
+.elan,
 .home-container,
 .profilecontainer {
   /*width: 500px;*/
@@ -190,7 +191,7 @@ menu.top li li:hover {
 
 .nameuser{
   display:block;
-  width: 150px;
+  width: 250px;
   height: 20px;
   margin:10px auto 10px;
   text-align:center;
@@ -216,7 +217,7 @@ menu.top li li:hover {
 .infouser{
   text-align:center;
   margin:10px auto;
-  width:200px;
+  width:220px;
 }
 
 .address span{
