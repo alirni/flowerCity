@@ -13,13 +13,13 @@ namespace flowerCity {
     public partial class profile {
         
         /// <summary>
-        /// Label1 control.
+        /// Labelname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label Labelname;
         
         /// <summary>
         /// Button1 control.
@@ -31,6 +31,15 @@ namespace flowerCity {
         protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
+        /// labeladdres control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labeladdres;
+        
+        /// <summary>
         /// HyperLink1 control.
         /// </summary>
         /// <remarks>
@@ -40,12 +49,12 @@ namespace flowerCity {
         protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
         
         /// <summary>
-        /// HyperLink2 control.
+        /// HyperLink3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink3;
     }
 }

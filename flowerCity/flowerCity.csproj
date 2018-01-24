@@ -71,6 +71,10 @@
     <Content Include="components\font\droid-naskh.css" />
     <Content Include="home.aspx" />
     <Content Include="homeAdmin.aspx" />
+    <Content Include="image\a.jpg" />
+    <Content Include="image\b.jpg" />
+    <Content Include="image\d.jpg" />
+    <Content Include="image\c.jpg" />
     <Content Include="image\bg.jpg" />
     <Content Include="image\header.jpg" />
     <Content Include="image\user-avatar.jpg" />
@@ -96,6 +100,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="profile.aspx" />
+    <Content Include="rememberme.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +144,13 @@
       <DependentUpon>profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rememberme.aspx.cs">
+      <DependentUpon>rememberme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rememberme.aspx.designer.cs">
+      <DependentUpon>rememberme.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

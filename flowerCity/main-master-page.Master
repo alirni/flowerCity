@@ -24,22 +24,26 @@
       </div>
     </div>
     <menu class="menu top box float-start w12">
-      <li><a href="#">خانه</a></li>
+      <li>
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/home.aspx">خانه</asp:HyperLink>
+      </li>
       <li>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/profile.aspx">پروفایل</asp:HyperLink>
       </li>
       <li>
         <a href="#">محصولات</a>
         <menu>
-          <li><a href="#">logo</a></li>
-          <li><a href="#">css</a></li>
-          <li><a href="#">html</a></li>
-          <li><a href="#">abc def ghi</a></li>
+          <li><a href="#">گل رز</a></li>
+          <li><a href="#">گل آپارتمانی</a></li>
+          <li><a href="#">کاکتوس</a></li>
+          <li><a href="#">دسته گل</a></li>
           <div class="badboy"></div>
         </menu>
       </li>
       <li><a href="#">سبد خرید</a></li>
-      <li><a href="#">یادآوری</a></li>
+      <li>
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/rememberme.aspx">یادآوری</asp:HyperLink>
+      </li>
       <div class="badboy"></div>
     </menu>
     <div class="middel box">
