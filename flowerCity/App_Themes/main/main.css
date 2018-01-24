@@ -18,6 +18,27 @@
   padding-top: 10px;
 }
 
+.image-container {
+  background-color:#FAFAFA;
+  border-radius:10px;
+  float: right;
+  width: 250px;
+  height: 300px;
+  margin: 40px 25px 20px 25px;
+  border: 1px solid black;
+  text-align:center;
+  line-height:50px;
+}
+.image {
+  height: 250px;
+  width: 250px;
+  border-radius:10px;
+  background-image: url('../../image/a.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*.container > * {
   outline: 4px dotted blue;
 }
